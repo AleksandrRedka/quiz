@@ -5,7 +5,7 @@
 <script>
 export default {
   name: "QuizText",
-  props: ['value', 'defaultValue']
+  props: ['item', 'value', 'defaultValue']
 }
 </script>
 

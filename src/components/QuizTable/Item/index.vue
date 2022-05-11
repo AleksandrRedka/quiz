@@ -19,6 +19,7 @@
 <script>
 import QuizSwitch from "@/components/QuizTable/components/common/Switch";
 import QuizText from "@/components/QuizTable/components/common/Text";
+import QuizDate from "@/components/QuizTable/components/common/Date";
 import QuizItemActions from "@/components/QuizTable/components/QuizTableActions/QuizItemActions";
 
 export default {
@@ -26,7 +27,7 @@ export default {
   components: {
     'quiz-switch': QuizSwitch,
     'quiz-text': QuizText,
-    'quiz-date': QuizText,
+    'quiz-date': QuizDate,
     'quiz-actions': QuizItemActions
   },
   props: {
