@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["icon-minus"],{4011:function(t,e,n){"use strict";n.r(e);var i=function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("svg",{attrs:{xmlns:"http://www.w3.org/2000/svg",width:"16",height:"3",viewBox:"0 0 16 3",fill:"none"}},[n("rect",{attrs:{x:"0.5",width:"15",height:"3",rx:"1.5",fill:"currentColor"}})])},r=[],s={name:"IconMinus"},o=s,c=n("2877"),l=Object(c["a"])(o,i,r,!1,null,"b2e5b6ce",null);e["default"]=l.exports}}]);
+//# sourceMappingURL=icon-minus.ef9e7842.js.map
