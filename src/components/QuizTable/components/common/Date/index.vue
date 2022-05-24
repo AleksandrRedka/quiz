@@ -7,7 +7,7 @@
 <script>
 export default {
   name: "QuizDate",
-  props: ['item', 'value', 'defaultValue'],
+  props: ['id', 'item', 'value', 'defaultValue'],
   computed: {
     dayAgo() {
       const endDate = new Date().toISOString().slice(0, 10)
@@ -17,7 +17,7 @@ export default {
       return Math.round(diffInDays)
     },
     getDate() {
-      if ( this.dayAgo > 7 ) return new Date(this.value).toISOString().slice(0, 10)
+      if ( this.dayAgo > 7 ) return new Date(this.value).toString().slice(0, 15)
       if ( this.dayAgo === 7 ) return 'week ago'
       if ( this.dayAgo === 0 ) return 'today';
       return this.dayAgo + ' days ago'

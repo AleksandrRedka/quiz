@@ -1,0 +1,17 @@
+.quiz-actions {
+  text-align: right;
+
+  & > button {
+    color: $doctor;
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+    line-height: 20px;
+    margin-right: 10px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+}

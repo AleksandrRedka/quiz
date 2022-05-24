@@ -1,0 +1,15 @@
+.combining-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &-pairs {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .common-button {
+    margin-top: 12px;
+  }
+}

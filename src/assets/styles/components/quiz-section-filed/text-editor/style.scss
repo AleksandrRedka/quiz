@@ -1,0 +1,14 @@
+@import "font-sizes";
+.text-editor {
+  &::v-deep {
+    .ql-toolbar {
+      border: none;
+    }
+    .ql-container {
+      border: none;
+      background: #F9F9F9;
+      border-radius: 5px;
+      padding: 10px;
+    }
+  }
+}

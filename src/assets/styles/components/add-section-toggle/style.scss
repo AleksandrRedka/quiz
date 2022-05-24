@@ -1,0 +1,27 @@
+.add-section-toggle {
+  flex-grow: 1;
+  padding: 0 10px;
+
+  &__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  &.sections-divider {
+    padding: 1rem 0;
+  }
+
+  &.add-answer {
+    .add-section-toggle__btn {
+      justify-content: flex-start;
+    }
+  }
+}

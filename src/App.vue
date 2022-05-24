@@ -1,19 +1,14 @@
 <template>
   <div id="app">
-    <TablePage />
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-
-import TablePage from "@/page/TablePage";
 export default {
   name: 'App',
-  components: {
-    TablePage
-  }
 }
 </script>
 
-<style>
+<style lang="scss">
 </style>

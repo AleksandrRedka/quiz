@@ -1,0 +1,21 @@
+.video-field {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 8px 14px;
+  max-width: 750px;
+  width: 100%;
+  margin: 0 auto;
+
+  label {
+    text-transform: uppercase;
+    padding-right: 15px;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+
+  input {
+    flex-grow: 1;
+  }
+}

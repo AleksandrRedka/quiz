@@ -1,0 +1,12 @@
+.common-input {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: $blackOak;
+  padding: 8px 35px 8px 12px;
+  width: 100%;
+}
+
+@import "header-quiz-name";
+@import "search-quiz";

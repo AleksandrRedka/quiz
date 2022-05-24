@@ -1,0 +1,64 @@
+.quiz-section {
+  $self: &;
+
+  width: 100%;
+  background-color: $white;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: $carbon;
+
+  &.active {
+    box-shadow: 0 0 7px rgb(0 0 0 / 16%);
+
+    #{$self}-header {
+      background: $adventureSea;
+      color: $doctor;
+      &::v-deep {
+        button {
+          color: $doctor;
+        }
+      }
+    }
+  }
+
+  &-body {
+    padding: 20px 20px 0;
+
+    hr {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  &-points {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #333333;
+    padding: 15px 0;
+
+    input {
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      box-sizing: border-box;
+      border-radius: 2px;
+      max-width: 40px;
+      display: inline-block;
+      margin-left: 5px;
+      padding: 5px;
+      max-height: 25px;
+      background-color: transparent;
+
+      &:focus {
+        outline: none;
+        box-shadow: none;
+      }
+    }
+  }
+}

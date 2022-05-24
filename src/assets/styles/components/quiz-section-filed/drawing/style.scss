@@ -1,0 +1,28 @@
+.drawing-field {
+
+  &-tools {
+	display: flex;
+	align-items: center;
+	margin-bottom: 1rem;
+
+	.color-picker {
+	  width: 30px;
+	  height: 30px;
+	}
+
+	button {
+	  border: none;
+	}
+  }
+
+  &-tool {
+	margin: 0 5px;
+
+	&.active::v-deep {
+	  button {
+		background: #D6DFEF;
+		box-shadow: 0 0 7px rgb(0 0 0 / 16%);
+	  }
+	}
+  }
+}

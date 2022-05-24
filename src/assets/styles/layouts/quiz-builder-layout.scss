@@ -1,0 +1,70 @@
+.quiz-builder-header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.header-top {
+  background-color: $adventureSea;
+  padding: 15px 30px;
+}
+
+.header-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $white;
+  box-shadow: 0 0 9px rgba(0, 0, 0, 0.1);
+  padding: 20px 30px;
+}
+
+.quiz-builder-body {
+  display: flex;
+  height: 100vh;
+  margin-top: calc(158px);
+}
+
+.quiz-builder-sidebar {
+  $self: &;
+
+  display: flex;
+  max-width: 250px;
+  width: 100%;
+  height: 100%;
+  background-color: $white;
+  transition: all .5s;
+  min-width: 250px;
+
+  &.closed {
+	margin-left: -225px;
+
+	#{$self}-toggle {
+	  button {
+		transform: rotate(180deg);
+	  }
+	}
+  }
+
+  &-components {
+	flex-grow: 1;
+	transition: all .5s;
+	padding: 30px 20px;
+	overflow-x: auto;
+  }
+
+  &-toggle {
+	width: 25px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+  }
+}
+
+.quiz-builder-content {
+  flex-grow: 1;
+  padding: 30px 50px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: calc(100% - 158px);
+}

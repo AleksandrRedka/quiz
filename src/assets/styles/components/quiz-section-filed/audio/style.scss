@@ -1,0 +1,20 @@
+.audio-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .divider-or {
+	padding: 30px 0;
+  }
+
+  &::v-deep {
+	svg {
+	  vertical-align: baseline;
+	}
+
+	.audio-record {
+	  margin-top: 20px;
+	}
+  }
+}

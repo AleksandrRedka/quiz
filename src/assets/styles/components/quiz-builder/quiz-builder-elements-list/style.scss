@@ -1,0 +1,16 @@
+.add-section-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  border-radius: 5px;
+  margin-right: 1rem;
+  background: $greyBlueHeron;
+
+  &.--dividers {
+    background: #F9F9F9;
+    margin-right: 0;
+  }
+}

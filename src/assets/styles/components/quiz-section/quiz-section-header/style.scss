@@ -1,0 +1,18 @@
+.quiz-section {
+  &-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #D6DFEF;
+	border-radius: 5px 5px 0 0;
+	padding: 8px 20px;
+	cursor: pointer;
+
+	&__actions {
+	  margin: 0;
+	  padding: 0;
+	  display: flex;
+	  flex-wrap: wrap;
+	}
+  }
+}

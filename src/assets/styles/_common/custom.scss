@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $bleachedSilk;
+  overflow: hidden;
+  color: $carbon;
+}
+
+.page-wrapper {
+  width: 100%;
+  overflow: hidden;
+  min-height: 100Vh;
+}
+
+.btn-transparent {
+  background-color: transparent;
+  border: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+  outline: none;
+}
+
+button{
+  background: transparent;
+  border: none;
+  outline: none;
+  color: $carbon;
+}
+
+button::not[disabled] {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+li {
+  list-style: none;
+}
+
+svg {
+  pointer-events: none;
+}
+
+input,
+textarea
+{
+  background: $doctor;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  resize: none;
+
+  &:focus {
+    color: $searedGrey;
+    background-color: $white;
+    border-color: $parakeetBlue;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 0 0 / 2%);
+  }
+
+  &::placeholder {
+    color: $pompeiiAsh;
+    opacity: 1;
+  }
+}
+
