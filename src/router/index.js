@@ -25,7 +25,8 @@ const routes = [
 
 const router = new VueRouter({
 	mode: 'history',
-	routes
+	routes,
+	base: '/quiz/',
 });
 
 export default router;
